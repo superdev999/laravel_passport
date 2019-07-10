@@ -71,8 +71,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Run
-1. Create 'laravel' database into your mysql server.
-1. php artisan migrate
-2. Import test.sql into your mysql database
-3. You can use this command to run. 
+1. composer install
+1. composer require laravel/passport
+2. composer require illuminate/html
+3. Create 'laravel' database into your mysql server.
+4. php artisan migrate
+5. php artisan key:generate
+6. Import test.sql into your mysql database
+7. You can use this command to run. 
    php artisan serve
